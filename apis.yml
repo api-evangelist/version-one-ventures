@@ -1,0 +1,80 @@
+aid: version-one-ventures
+name: Version One Ventures
+description: >-
+  Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and
+  headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by
+  founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who
+  are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in
+  the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and
+  automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems
+  including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and
+  backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct
+  listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version
+  One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.
+image: https://versionone.vc/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Pre-Seed
+  - Seed
+  - Early Stage
+  - Marketplaces
+  - Fintech
+  - Crypto
+  - Artificial Intelligence
+  - Robotics
+  - Deep Tech
+  - Health
+  - Canada
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://versionone.vc/
+  - type: Portfolio
+    url: https://versionone.vc/portfolio/
+  - type: Portfolio
+    url: portfolio/version-one-ventures-portfolio.yml
+  - type: Team
+    url: https://versionone.vc/people/
+  - type: Team
+    url: team/version-one-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://versionone.vc/core-beliefs/
+  - type: Blog
+    url: https://versionone.vc/blog/
+  - type: Pitch
+    url: https://versionone.vc/startup-handbook/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/version-one-ventures
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/version-one-ventures
+  - type: Features
+    data:
+      - "Stage: Pre-seed, Seed (early stage)"
+      - "Typical check: leads or co-leads ~$500K-$1.5M"
+      - "Sectors: marketplaces, SaaS, fintech/crypto, AI, robotics/physical AI, deep tech, biology/health"
+      - "Geography: North America, India, Africa (global)"
+      - "AUM: franchise of six funds, ~$250M+ historically"
+      - "Latest funds: Fund V $78M + Opportunities Fund III $30M ($108M combined, closed June 2026)"
+      - "Portfolio: 100+ companies over the firm's history"
+      - "Founded: July 2012"
+      - "HQ: Vancouver, British Columbia, Canada (with San Francisco presence)"
+    sources:
+      - https://versionone.vc/
+      - https://versionone.vc/people/
+      - https://en.wikipedia.org/wiki/Version_One_Ventures
+      - https://fundmomentum.vc/blog/version-one-ventures-fund-v-108m-boris-wertz-angela-tran-2026
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Version One Ventures
+    url: https://versionone.vc/
