@@ -11,6 +11,17 @@ description: >-
   backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct
   listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version
   One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://versionone.vc/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital

@@ -3,9 +3,9 @@ method: searched
 source: https://versionone.vc/portfolio/
 summary:
   portfolio_total: 83
-  in_network: 18
-  api_providers: 11
-  missing: 65
+  in_network: 83
+  api_providers: 20
+  missing: 0
   stubs_created: 0
 companies:
 - name: Ada
@@ -23,26 +23,29 @@ companies:
   sector: marketplaces
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apnibus
+  slug: apnibus
+  matched_by: name-slug
 - name: Arctus Aerospace
   description: Aerospace and defense technology company.
   sector: deep-tech
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arctus-aerospace
+  slug: arctus-aerospace
+  matched_by: name-slug
 - name: Bolt.Earth
   url: https://bolt.earth
   description: EV charging infrastructure network in India.
   sector: energy
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boltearth
+  slug: boltearth
+  matched_by: domain
 - name: AngelList
   url: https://www.angellist.com
   description: Platform for startups, investors, and fund managers.
@@ -67,49 +70,55 @@ companies:
   sector: energy
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: booster-fuels
+  slug: booster-fuels
+  matched_by: name-slug
 - name: Calvis
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: calvis
+  slug: calvis
+  matched_by: name-slug
 - name: Cap Hill Brands
   description: Consumer brand acquisition and operating company.
   sector: consumer
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cap-hill-brands
+  slug: cap-hill-brands
+  matched_by: name-slug
 - name: Dapper Labs
   url: https://www.dapperlabs.com
   description: Blockchain and NFT company behind Flow and NBA Top Shot.
   sector: crypto
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dapper-labs
+  slug: dapperlabs
+  matched_by: domain
 - name: Defined
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: defined
+  slug: defined
+  matched_by: name-slug
 - name: Dinari
   url: https://dinari.com
   description: Tokenized real-world assets and securities platform.
   sector: crypto
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dinari
+  in_network: true
+  is_api_provider: true
+  slug: dinari
+  matched_by: domain
 - name: Ether.Fi
   url: https://www.ether.fi
   description: Decentralized liquid staking protocol.
@@ -135,70 +144,78 @@ companies:
   sector: crypto
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flow
+  slug: flow
+  matched_by: name-slug
 - name: Gencove
   url: https://gencove.com
   description: Low-pass sequencing and genomics data platform.
   sector: health
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gencove
+  in_network: true
+  is_api_provider: true
+  slug: gencove
+  matched_by: domain
 - name: GridBank
   description: Energy storage and grid infrastructure company.
   sector: energy
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gridbank
+  slug: gridbank
+  matched_by: name-slug
 - name: Groupthink
   description: AI-powered meeting and collaboration software.
   sector: saas
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: groupthink
+  slug: groupthink
+  matched_by: name-slug
 - name: Headout
   url: https://www.headout.com
   description: Marketplace for booking tours, activities, and experiences.
   sector: marketplaces
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: headout
+  in_network: true
+  is_api_provider: true
+  slug: headout
+  matched_by: domain
 - name: Indiegogo
   url: https://www.indiegogo.com
   description: Crowdfunding platform for creators and entrepreneurs.
   sector: marketplaces
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: indiegogo
+  in_network: true
+  is_api_provider: true
+  slug: indiegogo
+  matched_by: domain
 - name: Inflection.io
   url: https://www.inflection.io
   description: Marketing automation platform for product-led companies.
   sector: saas
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: inflectionio
+  in_network: true
+  is_api_provider: true
+  slug: inflectionio
+  matched_by: domain
 - name: Jam
   url: https://jam.dev
   description: Bug reporting and developer collaboration tool.
   sector: developer-tools
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jam
+  slug: jam
+  matched_by: domain
 - name: Jobber
   url: https://www.getjobber.com
   description: Operations software for home service businesses.
@@ -213,57 +230,64 @@ companies:
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kobalt
+  slug: kobalt
+  matched_by: name-slug
 - name: Loon Finance
   description: Fintech company.
   sector: fintech
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: loon-finance
+  in_network: true
+  is_api_provider: true
+  slug: loon-finance
+  matched_by: name-slug
 - name: Mirado
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mirado
+  slug: mirado
+  matched_by: name-slug
 - name: Moment Energy
   url: https://www.momentenergy.com
   description: Repurposes EV batteries into clean energy storage systems.
   sector: energy
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moment-energy
+  slug: moment-energy
+  matched_by: domain
 - name: NCX
   url: https://ncx.com
   description: Natural Capital Exchange marketplace for forest carbon.
   sector: climate
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ncx
+  slug: ncx
+  matched_by: domain
 - name: Nia Health
   description: Digital health company for chronic skin conditions.
   sector: health
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nia-health
+  slug: nia-health
+  matched_by: name-slug
 - name: Optimotive
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: optimotive
+  slug: optimotive
+  matched_by: name-slug
 - name: Outreach
   url: https://www.outreach.io
   description: Sales engagement and revenue operations platform.
@@ -290,57 +314,64 @@ companies:
   sector: robotics
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pickle-robot
+  slug: pickle-robot-company
+  matched_by: domain
 - name: Pienza
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pienza
+  slug: pienza
+  matched_by: name-slug
 - name: Pluto Mobility
   description: Mobility and transportation technology company.
   sector: mobility
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pluto-mobility
+  slug: pluto-mobility
+  matched_by: name-slug
 - name: Preemadonna
   description: Maker of the Nailbot consumer beauty-tech device.
   sector: consumer
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: preemadonna
+  slug: preemadonna
+  matched_by: name-slug
 - name: Qvin
   description: Menstrual blood diagnostics and women's health platform.
   sector: health
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qvin
+  slug: qvin
+  matched_by: name-slug
 - name: Replay
   url: https://www.replay.io
   description: Time-travel debugging platform for developers.
   sector: developer-tools
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: replay
+  slug: replay
+  matched_by: domain
 - name: Shellworks
   description: Compostable packaging materials from natural polymers.
   sector: climate
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shellworks
+  slug: shellworks
+  matched_by: name-slug
 - name: Shippo
   url: https://goshippo.com
   description: Multi-carrier shipping API and platform for e-commerce.
@@ -355,9 +386,10 @@ companies:
   description: Version One portfolio company.
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swoop
+  slug: swoop
+  matched_by: name-slug
 - name: Tenderly
   url: https://tenderly.co
   description: Web3 development platform for building and monitoring smart contracts.
@@ -374,17 +406,19 @@ companies:
   sector: saas
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: top-hat
+  slug: top-hat
+  matched_by: domain
 - name: TRIC Robotics
   description: Agricultural robotics for chemical-free pest and disease control.
   sector: robotics
   status: active
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tric-robotics
+  slug: tric-robotics
+  matched_by: name-slug
 - name: Uniswap
   url: https://uniswap.org
   description: Decentralized crypto exchange protocol.
@@ -399,9 +433,10 @@ companies:
   description: Acquired by AlphaSchool in 2026.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: antimatter-systems
+  slug: antimatter-systems
+  matched_by: name-slug
 - name: Arweave
   url: https://www.arweave.org
   description: Permanent decentralized data storage network.
@@ -410,48 +445,53 @@ companies:
   source: https://versionone.vc/portfolio/
   slug: arweave
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Bedrock Materials
   description: Sodium-ion battery materials company.
   sector: deep-tech
   status: unknown
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bedrock-materials
+  slug: bedrock-materials
+  matched_by: name-slug
 - name: Stacks
   url: https://www.stacks.co
   description: Bitcoin layer for smart contracts (formerly Blockstack).
   sector: crypto
   status: unknown
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stacks
+  slug: stacks
+  matched_by: name-slug
 - name: Celo
   url: https://celo.org
   description: Mobile-first blockchain platform for payments.
   sector: crypto
   status: unknown
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celo
+  slug: celo
+  matched_by: domain
 - name: Clarity
   description: Acquired by Fundable.com in 2014.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clarity
+  slug: clarity
+  matched_by: name-slug
 - name: Cleargraph
   description: Acquired by Coinbase in 2018.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cleargraph
+  slug: cleargraph
+  matched_by: name-slug
 - name: Clio
   url: https://www.clio.com
   description: Legal practice management software; acquired by TCV in 2019.
@@ -476,96 +516,109 @@ companies:
   description: Acquired by GTY Technologies in 2022.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: demandstar
+  slug: demandstar
+  matched_by: name-slug
 - name: Dolly
   description: On-demand moving and delivery; acquired by Updater in 2021.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dolly
+  slug: dolly
+  matched_by: name-slug
 - name: EnergyBank
   description: Energy storage company.
   sector: energy
   status: unknown
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: energybank
+  slug: energybank
+  matched_by: name-slug
 - name: Flurry
   description: Mobile analytics; acquired by Yahoo in 2014.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flurry
+  slug: flurry
+  matched_by: name-slug
 - name: GoInstant
   description: Real-time collaboration; acquired by Salesforce in 2012.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goinstant
+  slug: goinstant
+  matched_by: name-slug
 - name: Guesser
   description: Acquired by Gemini in 2021.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guesser
+  slug: guesser
+  matched_by: name-slug
 - name: HandUp
   description: Acquired by South Oakland Shelter in 2017.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: handup
+  slug: handup
+  matched_by: name-slug
 - name: Julep
   description: Beauty subscription; acquired by Glansaol in 2016.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: julep
+  in_network: true
+  is_api_provider: true
+  slug: julep
+  matched_by: name-slug
 - name: Kinnek
   description: B2B marketplace; acquired by Foundation Group in 2019.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kinnek
+  slug: kinnek
+  matched_by: name-slug
 - name: Lolli
   description: Bitcoin rewards app; acquired by Thesis in 2025.
   sector: crypto
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lolli
+  slug: lolli
+  matched_by: name-slug
 - name: MagicBus
   description: Commuter transportation platform.
   sector: mobility
   status: unknown
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magicbus
+  slug: magicbus
+  matched_by: name-slug
 - name: Mattermark
   description: Company data platform; acquired by FullContact in 2018.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mattermark
+  slug: mattermark
+  matched_by: name-slug
 - name: Memo
   description: Acquired by Coinbase in 2018.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: memo
+  slug: memo
+  matched_by: name-slug
 - name: Nexus Mutual
   url: https://nexusmutual.io
   description: Decentralized insurance alternative on Ethereum.
@@ -589,23 +642,26 @@ companies:
   description: AR persistence platform; acquired by Headout in 2024.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: placenote
+  slug: placenote
+  matched_by: name-slug
 - name: Remio
   description: VR collaboration platform.
   status: unknown
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: remio
+  slug: remio
+  matched_by: name-slug
 - name: Scanwell
   description: At-home diagnostics; acquired by BD in 2021.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scanwell
+  slug: scanwell
+  matched_by: name-slug
 - name: SuperRare
   url: https://superrare.com
   description: Marketplace for digital art NFTs.
@@ -620,33 +676,37 @@ companies:
   description: Acquired by Uwill in 2025.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tbh
+  slug: tbh
+  matched_by: name-slug
 - name: Tindie
   url: https://www.tindie.com
   description: Marketplace for maker hardware; acquired by Supplyframe in 2015.
   sector: marketplaces
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tindie
+  in_network: true
+  is_api_provider: true
+  slug: tindie
+  matched_by: domain
 - name: Trim
   description: Personal finance assistant; acquired by OneMain in 2021.
   sector: fintech
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trim
+  slug: trim
+  matched_by: name-slug
 - name: Twenty20
   description: Stock photography marketplace; acquired by Envato in 2019.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twenty20
+  slug: twenty20
+  matched_by: name-slug
 - name: Unbounce
   url: https://unbounce.com
   description: Landing page and conversion platform; acquired by Crest Rock Partners in 2020.
@@ -661,36 +721,41 @@ companies:
   description: Electronics design tool; acquired by Altium in 2017.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upverter
+  slug: upverter
+  matched_by: name-slug
 - name: VarageSale
   description: Virtual garage sale marketplace; acquired by VerticalScope in 2017.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: varagesale
+  slug: varagesale
+  matched_by: name-slug
 - name: Wattpad
   url: https://www.wattpad.com
   description: Social storytelling platform; acquired by Naver in 2021.
   sector: consumer
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wattpad
+  slug: wattpad
+  matched_by: domain
 - name: Yapta
   description: Travel price tracking; acquired by Coupa in 2020.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yapta
+  slug: yapta
+  matched_by: name-slug
 - name: Zenput
   description: Operations execution software; acquired by CrunchTime! in 2022.
   status: acquired
   source: https://versionone.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zenput
+  slug: zenput
+  matched_by: name-slug
