@@ -4,7 +4,7 @@ source: https://versionone.vc/portfolio/
 summary:
   portfolio_total: 83
   in_network: 83
-  api_providers: 20
+  api_providers: 23
   missing: 0
   stubs_created: 0
 companies:
@@ -98,8 +98,8 @@ companies:
   status: active
   source: https://versionone.vc/portfolio/
   in_network: true
-  is_api_provider: false
-  slug: dapperlabs
+  is_api_provider: true
+  slug: dapper-labs
   matched_by: domain
 - name: Defined
   description: Version One portfolio company.
@@ -296,7 +296,7 @@ companies:
   source: https://versionone.vc/portfolio/
   slug: outreach
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Patch
   url: https://www.patch.io
@@ -304,7 +304,7 @@ companies:
   sector: climate
   status: active
   source: https://versionone.vc/portfolio/
-  slug: patch
+  slug: patch-io
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -608,7 +608,7 @@ companies:
   status: acquired
   source: https://versionone.vc/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: mattermark
   matched_by: name-slug
 - name: Memo
