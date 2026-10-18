@@ -26,7 +26,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: apnibus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://apnibus.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Arctus Aerospace
   description: Aerospace and defense technology company.
   sector: deep-tech
@@ -35,7 +37,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: arctus-aerospace
-  matched_by: name-slug
+  matched_by: domain
+  url: https://arctus.space/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bolt.Earth
   url: https://bolt.earth
   description: EV charging infrastructure network in India.
@@ -64,7 +68,9 @@ companies:
   slug: bikky
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bikky.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Booster Fuels
   description: On-demand fuel delivery and energy services.
   sector: energy
@@ -81,7 +87,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: calvis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://calvis.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cap Hill Brands
   description: Consumer brand acquisition and operating company.
   sector: consumer
@@ -109,6 +117,7 @@ companies:
   is_api_provider: false
   slug: defined
   matched_by: name-slug
+  x-url-candidate: https://defined.ai
 - name: Dinari
   url: https://dinari.com
   description: Tokenized real-world assets and securities platform.
@@ -146,8 +155,10 @@ companies:
   source: https://versionone.vc/portfolio/
   in_network: true
   is_api_provider: false
-  slug: flow
-  matched_by: name-slug
+  slug: flow-engineering
+  matched_by: domain
+  url: https://www.flowengineering.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gencove
   url: https://gencove.com
   description: Low-pass sequencing and genomics data platform.
@@ -167,6 +178,7 @@ companies:
   is_api_provider: false
   slug: gridbank
   matched_by: name-slug
+  x-url-candidate: https://gridbank.com
 - name: Groupthink
   description: AI-powered meeting and collaboration software.
   sector: saas
@@ -175,7 +187,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: groupthink
-  matched_by: name-slug
+  matched_by: domain
+  url: https://groupthink.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Headout
   url: https://www.headout.com
   description: Marketplace for booking tours, activities, and experiences.
@@ -233,7 +247,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kobalt
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kobaltmusic.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Loon Finance
   description: Fintech company.
   sector: fintech
@@ -250,7 +266,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: mirado
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mirado.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Moment Energy
   url: https://www.momentenergy.com
   description: Repurposes EV batteries into clean energy storage systems.
@@ -287,7 +305,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: optimotive
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.optimotive.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Outreach
   url: https://www.outreach.io
   description: Sales engagement and revenue operations platform.
@@ -343,7 +363,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: preemadonna
-  matched_by: name-slug
+  matched_by: domain
+  url: https://preemadonna.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Qvin
   description: Menstrual blood diagnostics and women's health platform.
   sector: health
@@ -371,7 +393,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: shellworks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://shellworks.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Shippo
   url: https://goshippo.com
   description: Multi-carrier shipping API and platform for e-commerce.
@@ -388,8 +412,10 @@ companies:
   source: https://versionone.vc/portfolio/
   in_network: true
   is_api_provider: false
-  slug: swoop
-  matched_by: name-slug
+  slug: jumia
+  matched_by: domain
+  url: https://swoop.com.ng/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tenderly
   url: https://tenderly.co
   description: Web3 development platform for building and monitoring smart contracts.
@@ -418,7 +444,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tric-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tricrobotics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Uniswap
   url: https://uniswap.org
   description: Decentralized crypto exchange protocol.
@@ -436,7 +464,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: antimatter-systems
-  matched_by: name-slug
+  matched_by: domain
+  url: https://antimatter.systems/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Arweave
   url: https://www.arweave.org
   description: Permanent decentralized data storage network.
@@ -483,7 +513,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: clarity
-  matched_by: name-slug
+  matched_by: domain
+  url: https://clarity.fm
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cleargraph
   description: Acquired by Coinbase in 2018.
   status: acquired
@@ -492,6 +524,7 @@ companies:
   is_api_provider: false
   slug: cleargraph
   matched_by: name-slug
+  x-url-candidate: https://cleargraph.co
 - name: Clio
   url: https://www.clio.com
   description: Legal practice management software; acquired by TCV in 2019.
@@ -519,7 +552,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: demandstar
-  matched_by: name-slug
+  matched_by: domain
+  url: https://network.demandstar.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Dolly
   description: On-demand moving and delivery; acquired by Updater in 2021.
   status: acquired
@@ -536,7 +571,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: energybank
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.energybank.nz/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flurry
   description: Mobile analytics; acquired by Yahoo in 2014.
   status: acquired
@@ -544,7 +581,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: flurry
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flurry.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: GoInstant
   description: Real-time collaboration; acquired by Salesforce in 2012.
   status: acquired
@@ -561,6 +600,7 @@ companies:
   is_api_provider: false
   slug: guesser
   matched_by: name-slug
+  x-url-candidate: https://guesser.ai
 - name: HandUp
   description: Acquired by South Oakland Shelter in 2017.
   status: acquired
@@ -568,7 +608,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: handup
-  matched_by: name-slug
+  matched_by: domain
+  url: https://handup.org
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Julep
   description: Beauty subscription; acquired by Glansaol in 2016.
   status: acquired
@@ -577,6 +619,7 @@ companies:
   is_api_provider: true
   slug: julep
   matched_by: name-slug
+  x-url-candidate: https://www.julep.com/
 - name: Kinnek
   description: B2B marketplace; acquired by Foundation Group in 2019.
   status: acquired
@@ -593,7 +636,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lolli
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lolli.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: MagicBus
   description: Commuter transportation platform.
   sector: mobility
@@ -602,7 +647,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: magicbus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.magicbus.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mattermark
   description: Company data platform; acquired by FullContact in 2018.
   status: acquired
@@ -610,7 +657,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: mattermark
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mattermark.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Memo
   description: Acquired by Coinbase in 2018.
   status: acquired
@@ -619,6 +668,7 @@ companies:
   is_api_provider: false
   slug: memo
   matched_by: name-slug
+  x-url-candidate: https://memo.co
 - name: Nexus Mutual
   url: https://nexusmutual.io
   description: Decentralized insurance alternative on Ethereum.
@@ -637,7 +687,9 @@ companies:
   slug: opyn
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.opyn.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Placenote
   description: AR persistence platform; acquired by Headout in 2024.
   status: acquired
@@ -653,7 +705,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: remio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://remiovr.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Scanwell
   description: At-home diagnostics; acquired by BD in 2021.
   status: acquired
@@ -662,6 +716,7 @@ companies:
   is_api_provider: false
   slug: scanwell
   matched_by: name-slug
+  x-url-candidate: https://www.scanwell.com/HOME/
 - name: SuperRare
   url: https://superrare.com
   description: Marketplace for digital art NFTs.
@@ -699,6 +754,7 @@ companies:
   is_api_provider: false
   slug: trim
   matched_by: name-slug
+  x-url-candidate: https://trim.co
 - name: Twenty20
   description: Stock photography marketplace; acquired by Envato in 2019.
   status: acquired
